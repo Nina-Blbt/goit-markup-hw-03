@@ -117,17 +117,14 @@ a {
     color: #404bbf;
 }
 
-.container-slogan-section {
-    padding: 188px 0 188px;
 
-
-
-}
 .slogan-section {
     background-color: #2e2f42;
-
+    padding: 188px 0 188px;
 
 }
+
+
 
 .title-section {
     background-color: #fff;
