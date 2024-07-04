@@ -134,10 +134,11 @@ a {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    text-align: center;
     color: #fff;
     max-width: 496px;
-
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 .team-section {
@@ -147,6 +148,15 @@ a {
 
  .team-photo {
     background-color: #FFFFFF;
+
+ }
+
+ .container-subtitle {
+    padding: 120px 0 120px;
+
+ }
+
+ .visually-hidden{
 
  }
 
@@ -174,7 +184,15 @@ a {
     height: 56px;
     border: none;
     border-radius: 4px;
+    padding: 16px 32px;
     cursor: pointer;
+    margin: 0 auto;
+}
+
+.button {
+    padding-top: 48px;
+    padding-bottom: 188px;
+
 }
 
 .title-button:hover,
@@ -184,6 +202,9 @@ a {
 
 .about-list {
     background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
+
 }
 
 
@@ -193,6 +214,7 @@ a {
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        width: calc((100% - 72px) / 4)ж
 }
 
 .p-text {
