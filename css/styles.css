@@ -156,9 +156,6 @@ a {
 
  }
 
- .visually-hidden{
-
- }
 
 .subtitle-text {
     font-weight: 500;
@@ -168,6 +165,7 @@ a {
     text-align: center;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .title-button {
@@ -200,11 +198,24 @@ a {
     background-color: #404BBF;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+
 .about-list {
     background-color: #FFFFFF;
     display: flex;
     gap: 24px;
-
+    padding: 120px 0;
+    
 }
 
 
@@ -215,6 +226,7 @@ a {
         letter-spacing: 0.02em;
         color: #2e2f42;
         width: calc((100% - 72px) / 4)ж
+        margin-bottom: 8px;
 }
 
 .p-text {
