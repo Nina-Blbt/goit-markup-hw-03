@@ -127,6 +127,7 @@ a {
 
 .about-list {
     padding: 120px 0;
+    width: calc((100% - 72px) / 4); 
 }
 
 .title-section {
